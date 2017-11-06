@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Metro Map Maker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/layout.css" rel="stylesheet" type="text/css">
+        <link href="css/schedule.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/ScheduleBuilder.js"></script>
+
+        <!-- ONCE THE PAGE FULLY LOADS INITIALIZE THE SLIDESHOW -->
+        <script>
+            $(document).ready()
+            {
+                initSchedule();
+            }
+        </script>
+        
+    </head>
+    <body id="container">
+        <div>
+            <!-- Navigation Bar -->
+            <div id =  "navbar">
+                <!-- Navbar Logo-->
+
+
+
+                <!--Navbar items -->
+                <a class ="nav_open" href = "index.html" id = "home_link">Home</a>
+                <a class="nav" href="fall2017schedule.html" id="schedule_link">Schedule</a>
+                <a class="nav" href="todo.html" id="todo_link"> To Do List</a>
+                <a class="nav" href="showcase.html" id="showcase_link">My Showcase</a>
+                <a class="nav" href="docs.html" id="doc_link">Documents</a>
+
+            </div>
+            
+            <div id ="banner">
+                <!-- This is the banner of the webpage-->
+                PERSONAL WEBSITE<br>of<br>NAFIUL AZIM
+            </div>
+            
+            <div>
+                
+                <table border="1" cellspacing="0" class="schedule">
+                    <tbody id="schedule_table">
+                        <!-- THIS WILL BE FILLED IN BY JAVASCRIPT -->                        
+                    </tbody>
+                </table>
+            </div>
+            
+            <footer class="home_footer">
+                This page is created and maintained by Nafiul Azim 
+                <br>Scripting Credit goes to <a href="www3.cs.stonybrook.edu/~richard">Prof.Richard Mckenna</a>
+            </footer>
+        </div>
+    </body>
+</html>

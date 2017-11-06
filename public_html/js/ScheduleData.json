@@ -1,0 +1,26 @@
+{
+    "startingMondayMonth":  "11",
+    "startingMondayDay":    "6",
+    "endingFridayMonth":    "12",
+    "endingFridayDay":      "22",
+    "holidays": [
+       {"month": "11", "day": "11", "title": "Veteran's Day", "topic": "Salute The Veterans", "link": ""}
+    ],
+    "lectures":[
+        { "month": "11", "day": "6", "title": "Lecture", "topic": "Software<br />Development<br />Lifecycle<br /><br /><br />", "link": ""},
+        {"month": "11", "day": "7", "title": "AMS310", "topic": "Review for exam <br><br><br>","link": ""},
+        {"month": "11", "day": "7", "title": "CSE373", "topic": "HOMEWORK<br> DUE<br><br><br>","link": ""},
+        {"month": "", "day": "", "title": "", "topic": "", "link": ""}
+    ],
+    "references": [
+         
+         ],
+
+    "recitations":[
+        
+    ],
+    "hws": [
+        {"month": "11", "day": "9", "title": "CSE373-HW_4", "topic": "due @ 1:00pm<br />(GUIs)<br />","link": ""},
+        {"month": "", "day": "", "title": "", "topic": "", "link": ""}
+    ]
+}
